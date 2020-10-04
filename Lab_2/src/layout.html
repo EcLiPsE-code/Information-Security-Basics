@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab_2</title>
+    <link rel="stylesheet" href="css/layout.css">
+</head>
+<body>
+    <div class="page">
+        <header>
+            <div class="top-heading">
+                <span>Лабораторная работа №2</span>
+            </div>
+            <div class="bottom-heading">
+                <span>Симметричные потоковые криптографические системы</span>
+            </div>
+        </header>
+        <div class="content">
+            <div class="tasks">
+                <div class="task-1">
+                    <div class="label-task">
+                        <span>Шифр Плейфера (русский алфавит)</span>
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
+                <div class="task-2">
+                    <div class="label-task">
+                        <span>Метод умножения матриц</span>
+                    </div>
+                    <div class="multiply-matrix">
+                        <div class="first-matrix">
+                            <div class="row-matrix-task-2">
+                                <div class="label">
+                                    <span>Введите количество строк первой матрицы:</span>
+                                </div>
+                                <div class="entry-field">
+                                    <input type="number" id="first-matrix-row">
+                                </div>
+                            </div>
+                            <div class="column-matrix-task-2">
+                                <div class="label">
+                                    <span>Введите количество столбцов первой матрицы:</span>
+                                </div>
+                                <div class="entry-field">
+                                    <input type="number" id="first-matrix-column">
+                                </div>
+                            </div>
+                            <div class="btn-generate-matrix">
+                                <button onclick="generate_first_matrix()">
+                                    Сгенерировать поля
+                                </button>
+                                <button onclick="generate_value_first_matrix()">
+                                    Автогенерация
+                                </button>
+                            </div>
+                            <div class="display-matrix">
+                                <div class="table-container">
+                                    <table id="first-matrix-table">
+
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="second-matrix">
+                            <div class="row-matrix-task-2">
+                                <div class="label">
+                                    <span>Введите количество строк второй матрицы:</span>
+                                </div>
+                                <div class="entry-field">
+                                    <input type="number" id="second-matrix-row">
+                                </div>
+                            </div>
+                            <div class="column-matrix-task-2">
+                                <div class="label">
+                                    <span>Введите количество столбцов второй матрицы:</span>
+                                </div>
+                                <div class="entry-field">
+                                    <input type="number" id="second-matrix-column">
+                                </div>
+                            </div>
+                            <div class="btn-generate-matrix">
+                                <button onclick="generate_second_matrix()">
+                                    Сгенерировать поля
+                                </button>
+                                <button onclick="generate_value_second_matrix()">
+                                    Автогенерация
+                                </button>
+                            </div>
+                            <div class="display-matrix">
+                                <div class="table-container">
+                                    <table id="second-matrix-table">
+
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn-get-result">
+                            <button onclick="multiplay_matrix()">Вычислить</button>
+                        </div>
+                        <div class="result-matrix">
+                            <div class="result-matrix-label">
+                                <span>Результат умножения матриц</span>
+                            </div>
+                            <div class="display-matrix">
+                                <div class="table-container">
+                                    <table id="result-matrix-table">
+
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="task-3">
+                    <div class="label-task">
+                        <span>Решетка Кардано</span>
+                    </div>
+                    <div>
+                        <div class="size-matrix">
+                            <div class="label-input">
+                                <span>Введите число</span>
+                            </div>
+                            <div class="input-entry">
+                                <input type="number">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+
+        </footer>
+    </div>
+    <script src="js/layout.js"></script>
+</body>
+</html>
