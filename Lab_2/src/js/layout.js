@@ -150,3 +150,17 @@ function getRandomNumber(min, max){
 }
 
 
+// Шифр Плейфера
+class PFEncryption {
+
+    constructor() {
+        this.alphabet = "АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ"
+        this.matrix = []
+    }
+
+    playfir(key, message){
+
+    }
+}
+
+
